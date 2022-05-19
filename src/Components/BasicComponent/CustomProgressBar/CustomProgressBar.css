@@ -1,0 +1,14 @@
+.custom-progressbar {
+    z-index: 3;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--medium);
+}
+
+.custom-progressbar .custom-progressbar-body {
+    background: var(--secondary) !important;
+    height: 8px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(57, 181, 74, 0.4);
+    transition: all .5s;
+}
